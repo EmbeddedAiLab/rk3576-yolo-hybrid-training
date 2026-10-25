@@ -1,0 +1,152 @@
+Classes (5): keyboard mouse bottle cup person
+Loaded 500 train / 100 val images
+L0: 3->16 k3 s2  out 64x64  matmul K=32 N=32
+L1: 16->32 k3 s2  out 32x32  matmul K=160 N=32
+L2: 32->64 k3 s2  out 16x16  matmul K=288 N=64
+L3: 64->128 k3 s1  out 16x16  matmul K=576 N=128
+L4: 128->128 k3 s1  out 16x16  matmul K=1152 N=128
+L5: 128->10 k1 s1  out 16x16  matmul K=128 N=32
+  ep 1 step 50  loss 31.7929  gnorm 27.89  lr 0.00250
+Epoch 1/60  train_loss 30.5217  val_loss 33.0981  P 0.000 R 0.000 F1 0.000 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 2 step 100  loss 25.3526  gnorm 18.22  lr 0.00500
+Epoch 2/60  train_loss 24.8069  val_loss 31.4031  P 0.000 R 0.000 F1 0.000 @IoU0.5 conf0.30  (33s)
+  ep 3 step 150  loss 25.3513  gnorm 34.52  lr 0.00498
+Epoch 3/60  train_loss 24.3598  val_loss 30.8725  P 0.000 R 0.000 F1 0.000 @IoU0.5 conf0.30  (33s)
+  ep 4 step 200  loss 23.7687  gnorm 31.92  lr 0.00497
+  ep 4 step 250  loss 24.0434  gnorm 10.31  lr 0.00495
+Epoch 4/60  train_loss 24.0513  val_loss 30.2975  P 0.000 R 0.000 F1 0.000 @IoU0.5 conf0.30  (33s)
+  ep 5 step 300  loss 23.3720  gnorm 7.46  lr 0.00493
+Epoch 5/60  train_loss 23.3312  val_loss 30.2517  P 0.022 R 0.004 F1 0.007 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 6 step 350  loss 22.9841  gnorm 16.17  lr 0.00490
+Epoch 6/60  train_loss 23.0850  val_loss 29.7352  P 0.012 R 0.018 F1 0.014 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 7 step 400  loss 22.4362  gnorm 15.72  lr 0.00487
+Epoch 7/60  train_loss 22.6127  val_loss 28.9208  P 0.006 R 0.010 F1 0.007 @IoU0.5 conf0.30  (33s)
+  ep 8 step 450  loss 23.5996  gnorm 17.08  lr 0.00484
+  ep 8 step 500  loss 22.5639  gnorm 9.92  lr 0.00480
+Epoch 8/60  train_loss 22.4857  val_loss 28.5814  P 0.015 R 0.022 F1 0.018 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 9 step 550  loss 22.6768  gnorm 19.89  lr 0.00476
+Epoch 9/60  train_loss 22.0487  val_loss 29.4658  P 0.015 R 0.061 F1 0.024 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 10 step 600  loss 21.5905  gnorm 27.42  lr 0.00471
+Epoch 10/60  train_loss 21.8627  val_loss 30.0391  P 0.010 R 0.023 F1 0.014 @IoU0.5 conf0.30  (33s)
+  ep 11 step 650  loss 22.5428  gnorm 11.01  lr 0.00466
+Epoch 11/60  train_loss 21.4891  val_loss 27.8157  P 0.016 R 0.023 F1 0.019 @IoU0.5 conf0.30  (33s)
+  ep 12 step 700  loss 20.7207  gnorm 19.41  lr 0.00461
+  ep 12 step 750  loss 21.2717  gnorm 14.64  lr 0.00455
+Epoch 12/60  train_loss 21.1465  val_loss 27.5245  P 0.023 R 0.054 F1 0.032 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 13 step 800  loss 20.7863  gnorm 11.22  lr 0.00450
+Epoch 13/60  train_loss 20.9370  val_loss 27.5957  P 0.049 R 0.038 F1 0.043 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 14 step 850  loss 20.0637  gnorm 16.49  lr 0.00443
+Epoch 14/60  train_loss 20.3170  val_loss 26.8933  P 0.021 R 0.038 F1 0.027 @IoU0.5 conf0.30  (33s)
+  ep 15 step 900  loss 21.0513  gnorm 37.90  lr 0.00437
+Epoch 15/60  train_loss 20.3405  val_loss 27.5443  P 0.018 R 0.056 F1 0.027 @IoU0.5 conf0.30  (33s)
+  ep 16 step 950  loss 20.1401  gnorm 17.03  lr 0.00430
+  ep 16 step 1000  loss 20.9258  gnorm 10.80  lr 0.00423
+Epoch 16/60  train_loss 20.7773  val_loss 27.8078  P 0.015 R 0.013 F1 0.014 @IoU0.5 conf0.30  (33s)
+  ep 17 step 1050  loss 19.7922  gnorm 17.72  lr 0.00415
+Epoch 17/60  train_loss 20.3044  val_loss 27.2460  P 0.045 R 0.079 F1 0.058 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 18 step 1100  loss 19.9502  gnorm 13.64  lr 0.00408
+Epoch 18/60  train_loss 20.1957  val_loss 27.4355  P 0.016 R 0.088 F1 0.027 @IoU0.5 conf0.30  (33s)
+  ep 19 step 1150  loss 20.1704  gnorm 20.36  lr 0.00400
+Epoch 19/60  train_loss 20.1072  val_loss 26.8132  P 0.015 R 0.058 F1 0.024 @IoU0.5 conf0.30  (33s)
+  ep 20 step 1200  loss 20.2425  gnorm 16.25  lr 0.00392
+  ep 20 step 1250  loss 19.7733  gnorm 11.77  lr 0.00383
+Epoch 20/60  train_loss 19.7632  val_loss 26.9351  P 0.044 R 0.038 F1 0.041 @IoU0.5 conf0.30  (33s)
+  ep 21 step 1300  loss 19.7450  gnorm 19.13  lr 0.00375
+Epoch 21/60  train_loss 19.9339  val_loss 26.5040  P 0.023 R 0.085 F1 0.036 @IoU0.5 conf0.30  (33s)
+  ep 22 step 1350  loss 19.4013  gnorm 11.35  lr 0.00366
+Epoch 22/60  train_loss 19.8527  val_loss 26.5675  P 0.029 R 0.032 F1 0.030 @IoU0.5 conf0.30  (33s)
+  ep 23 step 1400  loss 19.5142  gnorm 16.06  lr 0.00357
+Epoch 23/60  train_loss 19.2101  val_loss 27.4541  P 0.030 R 0.044 F1 0.035 @IoU0.5 conf0.30  (33s)
+  ep 24 step 1450  loss 21.4695  gnorm 17.98  lr 0.00348
+  ep 24 step 1500  loss 19.8391  gnorm 15.82  lr 0.00338
+Epoch 24/60  train_loss 19.6597  val_loss 27.1885  P 0.039 R 0.079 F1 0.052 @IoU0.5 conf0.30  (33s)
+  ep 25 step 1550  loss 19.3094  gnorm 16.84  lr 0.00329
+Epoch 25/60  train_loss 19.3669  val_loss 26.6236  P 0.016 R 0.078 F1 0.026 @IoU0.5 conf0.30  (33s)
+  ep 26 step 1600  loss 20.2086  gnorm 18.42  lr 0.00319
+Epoch 26/60  train_loss 19.6970  val_loss 26.2706  P 0.027 R 0.104 F1 0.043 @IoU0.5 conf0.30  (33s)
+  ep 27 step 1650  loss 19.5987  gnorm 20.90  lr 0.00310
+  ep 27 step 1700  loss 19.1603  gnorm 17.92  lr 0.00300
+Epoch 27/60  train_loss 19.1559  val_loss 25.9849  P 0.032 R 0.083 F1 0.047 @IoU0.5 conf0.30  (33s)
+  ep 28 step 1750  loss 19.2968  gnorm 13.53  lr 0.00290
+Epoch 28/60  train_loss 19.4356  val_loss 26.1396  P 0.028 R 0.110 F1 0.044 @IoU0.5 conf0.30  (33s)
+  ep 29 step 1800  loss 20.1128  gnorm 17.29  lr 0.00280
+Epoch 29/60  train_loss 19.2280  val_loss 25.9583  P 0.023 R 0.064 F1 0.033 @IoU0.5 conf0.30  (33s)
+  ep 30 step 1850  loss 19.9682  gnorm 13.48  lr 0.00271
+Epoch 30/60  train_loss 19.3308  val_loss 25.9544  P 0.027 R 0.086 F1 0.041 @IoU0.5 conf0.30  (33s)
+  ep 31 step 1900  loss 17.9319  gnorm 14.44  lr 0.00261
+  ep 31 step 1950  loss 18.7907  gnorm 15.40  lr 0.00251
+Epoch 31/60  train_loss 18.8174  val_loss 25.9149  P 0.026 R 0.087 F1 0.040 @IoU0.5 conf0.30  (33s)
+  ep 32 step 2000  loss 19.5918  gnorm 16.14  lr 0.00241
+Epoch 32/60  train_loss 19.0252  val_loss 25.6272  P 0.032 R 0.091 F1 0.047 @IoU0.5 conf0.30  (33s)
+  ep 33 step 2050  loss 18.9121  gnorm 15.02  lr 0.00231
+Epoch 33/60  train_loss 19.0659  val_loss 26.2842  P 0.020 R 0.073 F1 0.031 @IoU0.5 conf0.30  (33s)
+  ep 34 step 2100  loss 17.4417  gnorm 18.35  lr 0.00221
+Epoch 34/60  train_loss 18.7445  val_loss 25.7885  P 0.022 R 0.091 F1 0.035 @IoU0.5 conf0.30  (33s)
+  ep 35 step 2150  loss 19.0148  gnorm 11.97  lr 0.00212
+  ep 35 step 2200  loss 18.8373  gnorm 14.53  lr 0.00202
+Epoch 35/60  train_loss 18.6833  val_loss 26.1251  P 0.031 R 0.077 F1 0.044 @IoU0.5 conf0.30  (33s)
+  ep 36 step 2250  loss 18.3579  gnorm 15.86  lr 0.00193
+Epoch 36/60  train_loss 18.3478  val_loss 26.6104  P 0.030 R 0.095 F1 0.046 @IoU0.5 conf0.30  (33s)
+  ep 37 step 2300  loss 18.0907  gnorm 12.92  lr 0.00183
+Epoch 37/60  train_loss 18.3180  val_loss 25.5733  P 0.027 R 0.113 F1 0.044 @IoU0.5 conf0.30  (33s)
+  ep 38 step 2350  loss 18.1214  gnorm 16.43  lr 0.00174
+Epoch 38/60  train_loss 18.2247  val_loss 25.8043  P 0.044 R 0.111 F1 0.063 @IoU0.5 conf0.30  (33s)
+  saved yolo_hybrid_best.bin
+  ep 39 step 2400  loss 19.4837  gnorm 16.06  lr 0.00165
+  ep 39 step 2450  loss 18.4691  gnorm 15.77  lr 0.00156
+Epoch 39/60  train_loss 18.3035  val_loss 25.5714  P 0.032 R 0.097 F1 0.048 @IoU0.5 conf0.30  (33s)
+  ep 40 step 2500  loss 18.3390  gnorm 18.77  lr 0.00147
+Epoch 40/60  train_loss 18.3382  val_loss 25.4936  P 0.024 R 0.124 F1 0.040 @IoU0.5 conf0.30  (33s)
+  ep 41 step 2550  loss 18.2780  gnorm 15.01  lr 0.00139
+Epoch 41/60  train_loss 18.2029  val_loss 25.6510  P 0.033 R 0.131 F1 0.053 @IoU0.5 conf0.30  (33s)
+  ep 42 step 2600  loss 18.7815  gnorm 14.95  lr 0.00131
+Epoch 42/60  train_loss 18.0535  val_loss 25.6876  P 0.031 R 0.140 F1 0.050 @IoU0.5 conf0.30  (33s)
+  ep 43 step 2650  loss 18.5937  gnorm 18.28  lr 0.00122
+  ep 43 step 2700  loss 18.3458  gnorm 13.28  lr 0.00115
+Epoch 43/60  train_loss 18.2631  val_loss 25.1557  P 0.033 R 0.117 F1 0.052 @IoU0.5 conf0.30  (33s)
+  ep 44 step 2750  loss 18.0710  gnorm 29.59  lr 0.00107
+Epoch 44/60  train_loss 17.7879  val_loss 25.1392  P 0.035 R 0.115 F1 0.054 @IoU0.5 conf0.30  (33s)
+  ep 45 step 2800  loss 17.6707  gnorm 16.40  lr 0.00100
+Epoch 45/60  train_loss 17.9289  val_loss 25.2458  P 0.031 R 0.113 F1 0.049 @IoU0.5 conf0.30  (33s)
+  ep 46 step 2850  loss 18.4206  gnorm 19.12  lr 0.00093
+Epoch 46/60  train_loss 18.0197  val_loss 25.0188  P 0.029 R 0.118 F1 0.046 @IoU0.5 conf0.30  (33s)
+  ep 47 step 2900  loss 15.5515  gnorm 15.37  lr 0.00086
+  ep 47 step 2950  loss 18.5179  gnorm 16.69  lr 0.00079
+Epoch 47/60  train_loss 18.4553  val_loss 25.3219  P 0.031 R 0.111 F1 0.048 @IoU0.5 conf0.30  (33s)
+  ep 48 step 3000  loss 18.1338  gnorm 26.89  lr 0.00073
+Epoch 48/60  train_loss 17.8930  val_loss 25.0660  P 0.025 R 0.102 F1 0.040 @IoU0.5 conf0.30  (33s)
+  ep 49 step 3050  loss 17.7224  gnorm 13.35  lr 0.00067
+Epoch 49/60  train_loss 17.9479  val_loss 25.2173  P 0.033 R 0.097 F1 0.050 @IoU0.5 conf0.30  (33s)
+  ep 50 step 3100  loss 17.7338  gnorm 18.53  lr 0.00062
+  ep 50 step 3150  loss 18.2845  gnorm 29.56  lr 0.00057
+Epoch 50/60  train_loss 18.2845  val_loss 24.9159  P 0.036 R 0.117 F1 0.055 @IoU0.5 conf0.30  (33s)
+  ep 51 step 3200  loss 17.9499  gnorm 17.82  lr 0.00052
+Epoch 51/60  train_loss 18.0392  val_loss 25.0051  P 0.027 R 0.122 F1 0.044 @IoU0.5 conf0.30  (33s)
+  ep 52 step 3250  loss 18.5337  gnorm 15.73  lr 0.00048
+Epoch 52/60  train_loss 17.8953  val_loss 24.8986  P 0.033 R 0.127 F1 0.053 @IoU0.5 conf0.30  (33s)
+  ep 53 step 3300  loss 16.6561  gnorm 13.98  lr 0.00044
+Epoch 53/60  train_loss 17.4685  val_loss 25.0117  P 0.030 R 0.122 F1 0.049 @IoU0.5 conf0.30  (33s)
+  ep 54 step 3350  loss 19.3118  gnorm 15.62  lr 0.00040
+  ep 54 step 3400  loss 17.5398  gnorm 18.50  lr 0.00037
+Epoch 54/60  train_loss 17.6999  val_loss 25.0093  P 0.035 R 0.118 F1 0.054 @IoU0.5 conf0.30  (33s)
+  ep 55 step 3450  loss 17.8779  gnorm 16.25  lr 0.00034
+Epoch 55/60  train_loss 17.6279  val_loss 25.2148  P 0.030 R 0.113 F1 0.047 @IoU0.5 conf0.30  (33s)
+  ep 56 step 3500  loss 17.9611  gnorm 15.62  lr 0.00031
+Epoch 56/60  train_loss 17.4310  val_loss 25.0664  P 0.032 R 0.120 F1 0.051 @IoU0.5 conf0.30  (33s)
+  ep 57 step 3550  loss 17.6370  gnorm 21.32  lr 0.00029
+Epoch 57/60  train_loss 17.7180  val_loss 24.9785  P 0.033 R 0.123 F1 0.052 @IoU0.5 conf0.30  (33s)
+  ep 58 step 3600  loss 17.2825  gnorm 13.74  lr 0.00028
+  ep 58 step 3650  loss 17.8923  gnorm 18.53  lr 0.00026
+Epoch 58/60  train_loss 17.8947  val_loss 25.1243  P 0.031 R 0.110 F1 0.049 @IoU0.5 conf0.30  (33s)
+  ep 59 step 3700  loss 17.5605  gnorm 25.00  lr 0.00026
+Epoch 59/60  train_loss 17.5703  val_loss 24.9340  P 0.032 R 0.137 F1 0.052 @IoU0.5 conf0.30  (33s)
+  ep 60 step 3750  loss 18.1840  gnorm 17.36  lr 0.00025
+Epoch 60/60  train_loss 17.7885  val_loss 24.9556  P 0.031 R 0.114 F1 0.049 @IoU0.5 conf0.30  (33s)
